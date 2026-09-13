@@ -3,50 +3,241 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="color-scheme" content="light">
-  <title>MushroomSnap Privacy Policy</title>
+  <meta name="color-scheme" content="light dark">
+  <title>Privacy Policy | MycoSnap</title>
   <style>
-    :root{--ink:#281b12;--muted:#6f6258;--paper:#fffaf3;--gold:#e99a2b;--line:#eadfd1;--forest:#315542}*{box-sizing:border-box}body{margin:0;color:var(--ink);background:linear-gradient(180deg,#f4e6d1 0,var(--paper) 260px);font:16px/1.7 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}main{width:min(880px,calc(100% - 32px));margin:auto;padding:44px 0 72px}header{padding:34px;color:#fff;border-radius:28px;background:linear-gradient(135deg,#24170f,#563319);box-shadow:0 18px 50px #371f0e29}.eyebrow{margin:0 0 8px;color:#ffc46d;font-size:13px;font-weight:800;letter-spacing:.12em;text-transform:uppercase}h1{margin:0;font:700 clamp(34px,7vw,54px)/1.08 Georgia,serif}header p{margin:12px 0 0;color:#eadfd4}article{margin-top:22px;padding:clamp(22px,5vw,42px);border:1px solid var(--line);border-radius:24px;background:#fff;box-shadow:0 12px 36px #371f0e12}h2{margin:34px 0 8px;font:700 24px/1.25 Georgia,serif}h2:first-child{margin-top:0}h3{margin:22px 0 4px;font-size:17px}p,li{color:var(--muted)}ul{padding-left:22px}a{color:var(--forest);font-weight:650}.notice{margin:20px 0;padding:16px 18px;border-left:4px solid var(--gold);border-radius:12px;background:#fff5e7}footer{padding:24px 4px 0;color:var(--muted);text-align:center;font-size:14px}
+    :root {
+      color-scheme: light;
+      --background: #f7f1e8;
+      --surface: #fffdf9;
+      --text: #281b12;
+      --muted: #706259;
+      --accent: #7d4f25;
+      --accent-soft: #f7e3c3;
+      --border: #eadfd1;
+      --shadow: 0 18px 48px rgba(40, 27, 18, .09);
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--background);
+      color: var(--text);
+      font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont,
+        "Segoe UI", sans-serif;
+      font-size: 16px;
+      line-height: 1.7;
+    }
+    main {
+      width: min(860px, calc(100% - 32px));
+      margin: 48px auto;
+      padding: clamp(28px, 6vw, 64px);
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 24px;
+      box-shadow: var(--shadow);
+    }
+    .eyebrow {
+      display: inline-block;
+      margin-bottom: 10px;
+      padding: 5px 12px;
+      color: var(--accent);
+      background: var(--accent-soft);
+      border-radius: 999px;
+      font-size: 13px;
+      font-weight: 700;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+    }
+    h1, h2 { line-height: 1.25; }
+    h1 { margin: 0 0 8px; font-size: clamp(34px, 7vw, 52px); }
+    h2 { margin: 36px 0 10px; font-size: 22px; }
+    p, ul { margin: 10px 0; }
+    ul { padding-left: 22px; }
+    li + li { margin-top: 8px; }
+    .updated { color: var(--muted); }
+    .summary {
+      margin: 28px 0;
+      padding: 18px 20px;
+      background: var(--accent-soft);
+      border-left: 4px solid var(--accent);
+      border-radius: 12px;
+    }
+    a { color: var(--accent); text-underline-offset: 3px; }
+    footer {
+      margin-top: 44px;
+      padding-top: 22px;
+      border-top: 1px solid var(--border);
+      color: var(--muted);
+      font-size: 14px;
+    }
+    @media (max-width: 560px) {
+      main {
+        width: 100%;
+        margin: 0;
+        border: 0;
+        border-radius: 0;
+        box-shadow: none;
+      }
+    }
   </style>
 </head>
-<body><main>
-  <header><p class="eyebrow">MushroomSnap</p><h1>Privacy Policy</h1><p>Effective and last updated: September 12, 2026</p></header>
-  <article>
-    <h2>1. Who we are</h2>
-    <p>MushroomSnap is provided by Vasundhara Infotech LLP ("MushroomSnap", "we", "us", or "our"), located at Opp. Nayara Petrol Pump, Singanpore Road, Katargam, Surat 395004, Gujarat, India. This policy explains how information is handled when you use the MushroomSnap mobile application and related pages.</p>
-    <div class="notice"><strong>Safety note:</strong> Mushroom identification can be wrong. Never eat, touch, prepare, or use a wild mushroom based only on the app's output. Consult a qualified local expert.</div>
-    <h2>2. Information we process</h2>
-    <h3>Photos and identification requests</h3>
-    <p>When you choose a photo or use the camera, the selected image is processed to provide an identification result. The image may contain metadata or details from its surroundings. Identification requests may be sent to Google Lens or another configured identification provider. We do not require you to create an account.</p>
-    <h3>Saved content and preferences</h3>
-    <p>Your scan history, saved mushrooms, collections, app language, onboarding status, and similar preferences are stored locally on your device. Scan history may include a local copy of the selected image. You can remove saved content in the app or remove local app data by deleting the app.</p>
-    <h3>Diagnostics, analytics, and configuration</h3>
-    <p>We may use Firebase Analytics, Firebase Crashlytics, and Firebase Remote Config. These services may process app interactions, device and app information, approximate location inferred from an IP address, identifiers, crash logs, stack traces, and diagnostic data. We use this information to operate, secure, configure, and improve the app.</p>
-    <h3>Advertising</h3>
-    <p>The free version may display Google AdMob ads. Depending on your region, consent choices, device settings, and Apple tracking permission, Google and its partners may process advertising identifiers, IP address, device information, ad interactions, and approximate location to provide, measure, prevent fraud in, or personalize advertising. Where required, we request consent. Users with an active Pro entitlement may receive an ad-free experience.</p>
-    <h3>Purchases and subscriptions</h3>
-    <p>Apple processes App Store payments. RevenueCat helps us manage products, receipts, subscription status, free-trial eligibility, and entitlements. We do not receive your full payment-card details. RevenueCat and Apple may process transaction identifiers, purchase receipts, product and entitlement information, app user identifiers, and related device or technical information.</p>
-    <h3>Location and maps</h3>
-    <p>The app can show map coordinates supplied with its mushroom reference data and can open Apple Maps when you choose navigation. MushroomSnap does not currently use those reference coordinates as your precise device location. Apple Maps is governed by Apple's terms and privacy practices.</p>
-    <h3>Legal pages and network data</h3>
-    <p>When an in-app web page is loaded, the hosting provider may receive standard request information such as IP address, browser or device details, timestamps, and the requested page.</p>
-    <h2>3. Why we use information</h2>
-    <ul><li>to provide mushroom identification, reference information, recipes, maps, saved items, and app preferences;</li><li>to deliver purchases, restore subscriptions, and manage Pro access;</li><li>to show and measure ads where enabled;</li><li>to understand usage, diagnose crashes, prevent abuse, and improve reliability;</li><li>to comply with law and protect users, our services, and our rights.</li></ul>
-    <h2>4. Sharing and service providers</h2>
-    <p>We do not sell your personal information for money. We share information only as needed with service providers described above (including Google/Firebase/AdMob, RevenueCat, Apple, identification providers, and hosting providers), when you direct us to do so, during a business transfer, or when required to comply with law, enforce our terms, or protect safety and rights. Advertising activities may be treated as "sharing" or "targeted advertising" under some privacy laws.</p>
-    <h2>5. Retention</h2>
-    <p>Local history and preferences remain on your device until you delete them, clear app data, or uninstall the app. We keep information under our control only as long as reasonably necessary for the purposes in this policy, legal obligations, dispute resolution, and security. Service providers apply their own retention periods.</p>
-    <h2>6. Your choices and rights</h2>
-    <ul><li>You can deny or revoke camera, photo-library, notification, or tracking permission in device Settings.</li><li>You can choose available consent options for advertising and disable ad personalization through device or regional controls.</li><li>You can delete locally saved scans and collections in the app or uninstall the app.</li><li>You can manage or cancel subscriptions in your Apple ID subscription settings.</li><li>Depending on where you live, you may request access, correction, deletion, restriction, objection, or portability for personal information under our control.</li></ul>
-    <p>To make a privacy request, email <a href="mailto:info@vasundhara.io">info@vasundhara.io</a>. We may need to verify the request. Because the app does not require an account and much of its content is stored only on your device, we may not be able to identify or retrieve that local content.</p>
-    <h2>7. International processing and security</h2>
-    <p>Our providers may process information in India, the United States, and other countries where privacy laws may differ. We use reasonable administrative, technical, and organizational safeguards, but no transmission or storage system is completely secure.</p>
-    <h2>8. Children</h2>
-    <p>MushroomSnap is not directed to children under 13, or the higher minimum age required in their country. We do not knowingly collect personal information from children. A parent or guardian who believes a child supplied personal information should contact us.</p>
-    <h2>9. Third-party policies</h2>
-    <p>For more information, review <a href="https://policies.google.com/privacy">Google's Privacy Policy</a>, <a href="https://firebase.google.com/support/privacy">Firebase Privacy and Security</a>, <a href="https://www.revenuecat.com/privacy/">RevenueCat's Privacy Policy</a>, and <a href="https://www.apple.com/legal/privacy/">Apple's Privacy Policy</a>.</p>
-    <h2>10. Changes and contact</h2>
-    <p>We may update this policy as the app, our providers, or legal requirements change. We will revise the date above and provide additional notice where required.</p>
-    <p>Questions or requests: <a href="mailto:info@vasundhara.io">info@vasundhara.io</a><br>Vasundhara Infotech LLP, Opp. Nayara Petrol Pump, Singanpore Road, Katargam, Surat 395004, Gujarat, India.</p>
-  </article><footer>© 2026 Vasundhara Infotech LLP · MushroomSnap</footer>
-</main></body></html>
+<body>
+  <main>
+    <span class="eyebrow">MycoSnap Legal</span>
+    <h1>Privacy Policy</h1>
+    <p class="updated"><strong>Effective date:</strong> September 13, 2026</p>
+
+    <p class="summary">
+      MycoSnap (listed as &ldquo;Mushroom Identifier: MycoSnap&rdquo;) helps you
+      photograph, identify, learn about and organize mushrooms. Most collection
+      data is stored on your device. When you request identification, the image
+      you select is sent to OpenAI so the app can return a possible match.
+      The free version may also show advertising supplied by Google AdMob.
+    </p>
+
+    <h2>1. Information MycoSnap handles</h2>
+    <p>Depending on the features you use, MycoSnap may handle:</p>
+    <ul>
+      <li><strong>Mushroom photos:</strong> images you capture with the camera or select from your photo library.</li>
+      <li><strong>Collection data:</strong> saved mushroom images, identification results, collection names and related details.</li>
+      <li><strong>Preferences:</strong> language, onboarding state, haptics, auto-save and premium status.</li>
+      <li><strong>Purchase information:</strong> Apple and RevenueCat may provide product identifiers, transaction and entitlement status, renewal or expiration dates and an anonymous app-user identifier. MycoSnap does not receive your complete payment-card details.</li>
+      <li><strong>Advertising data:</strong> when ads are enabled, Google AdMob may receive an advertising identifier, IP address, coarse location derived from that address, device and app information and records of ad views or interactions.</li>
+      <li><strong>Analytics and diagnostics:</strong> Firebase Analytics and Crashlytics may receive app interactions, device and app details, identifiers, crash logs, stack traces and diagnostic information.</li>
+      <li><strong>Configuration data:</strong> Firebase Remote Config receives standard request details such as IP address, app version and an app-instance identifier.</li>
+      <li><strong>Technical data:</strong> IP address, device or browser information, cookies and request metadata normally sent to services used for identification, advertising, configuration and legal-page hosting.</li>
+      <li><strong>Tracking permission:</strong> on supported Apple devices, the app may ask for permission through App Tracking Transparency. You may deny it or change the choice later in device settings.</li>
+    </ul>
+
+    <h2>2. How information is used</h2>
+    <ul>
+      <li>to capture or select a mushroom image and provide an identification result;</li>
+      <li>to display mushroom details, safety information, recipes, guides and reference maps;</li>
+      <li>to save and manage collections locally on your device;</li>
+      <li>to remember app preferences;</li>
+      <li>to process purchases, restore access and determine whether Pro features are active;</li>
+      <li>to show, measure and limit advertising in the free version;</li>
+      <li>to load app configuration, understand use, diagnose errors and improve reliability; and</li>
+      <li>to comply with legal obligations, prevent abuse and enforce the Terms of Use.</li>
+    </ul>
+
+    <h2>3. Camera, photo library and local storage</h2>
+    <p>
+      Camera and photo-library access is used only when you choose a feature that
+      needs it. Saved photos, identification reports, collection records and
+      preferences are stored locally unless the app clearly explains otherwise.
+      You can control camera and photo permissions in device settings. Deleting a
+      saved item, clearing app data or uninstalling MycoSnap may remove local data,
+      subject to your device's backup behaviour.
+    </p>
+
+    <h2>4. OpenAI and image processing</h2>
+    <p>
+      When you start an identification, MycoSnap prepares and uploads the chosen
+      image to OpenAI. OpenAI may process the image, IP address, device information
+      and related request data under its
+      <a href="https://openai.com/policies/privacy-policy/">Privacy Policy</a>.
+      Do not submit an image containing a person, document, precise location or
+      other information you do not want sent to OpenAI. OpenAI's service and its
+      results are independent of MycoSnap. Before the first identification, the
+      app presents an image-processing disclosure that you may decline.
+    </p>
+
+    <h2>5. Purchases and subscriptions</h2>
+    <p>
+      Purchases are processed by Apple through the App Store, while RevenueCat
+      validates transactions, restores purchases and synchronizes Pro entitlement
+      status. Apple and RevenueCat process purchase and device information under
+      their own privacy terms. They do not give MycoSnap your complete card number.
+    </p>
+
+    <h2>6. Advertising</h2>
+    <p>
+      The free version may display Google AdMob advertising, including banner,
+      native, interstitial and app-open formats. Google processes advertising
+      data under its own terms, including the
+      <a href="https://policies.google.com/technologies/partner-sites">Google
+      Privacy &amp; Terms for partner sites</a>. Tracking permission and regional
+      consent choices may affect personalization. Non-personalized ads still use
+      limited signals such as approximate location and app context. An active Pro
+      subscription removes advertising and stops those ad requests.
+    </p>
+
+    <h2>7. Firebase services</h2>
+    <p>
+      MycoSnap may use Firebase Remote Config, Analytics and Crashlytics for app
+      settings, usage measurement and reliability. No mushroom photo or local
+      collection record is intentionally sent to Remote Config, Analytics or
+      Crashlytics. Google processes the technical information those services
+      receive under its own privacy terms.
+    </p>
+
+    <h2>8. Maps, sharing and third-party services</h2>
+    <p>
+      Reference coordinates may be shown on an Apple map and can be opened in
+      Apple Maps when you request navigation. They describe a reference location,
+      not your device's precise location. When you use a share control, the app
+      sends the content to the destination you choose. Apple Maps, sharing targets
+      and other third-party services apply their own terms and privacy practices.
+    </p>
+
+    <h2>9. Sharing and sale of information</h2>
+    <p>
+      MycoSnap does not sell mushroom photos or collection records. Information
+      may be disclosed to the service providers described above when needed to
+      deliver a requested feature, comply with law, protect rights and safety,
+      investigate abuse or complete a business transfer. Some privacy laws may
+      define advertising activity as &ldquo;sharing&rdquo; or targeted advertising.
+    </p>
+
+    <h2>10. Retention and deletion</h2>
+    <p>
+      Local information remains on your device until you delete it, clear app
+      storage or uninstall MycoSnap. Third parties retain information according
+      to their own policies. You can use the app's delete controls to remove
+      individual mushrooms and collections stored locally.
+    </p>
+
+    <h2>11. Security and international processing</h2>
+    <p>
+      Reasonable safeguards are used, but no device, transmission or storage
+      method is completely secure. Service providers may process information in
+      countries other than your own, where data-protection laws may differ.
+    </p>
+
+    <h2>12. Children's privacy</h2>
+    <p>
+      MycoSnap is not directed to children under 13 or the higher minimum age
+      required by local law, and personal information from children is not
+      knowingly collected. A parent or guardian with a concern should contact us.
+    </p>
+
+    <h2>13. Your choices</h2>
+    <ul>
+      <li><strong>Camera and photos:</strong> grant or revoke access in device settings.</li>
+      <li><strong>Tracking and advertising:</strong> update tracking permission or advertising choices in device settings where available.</li>
+      <li><strong>Advertising as a whole:</strong> activate Pro to remove ads.</li>
+      <li><strong>Collections:</strong> delete saved mushrooms or collections in the app, or uninstall the app to remove all local data.</li>
+      <li><strong>Subscriptions:</strong> manage or cancel them in your Apple ID subscription settings.</li>
+    </ul>
+
+    <h2>14. Changes to this policy</h2>
+    <p>
+      This policy may be updated as MycoSnap, its providers or legal requirements
+      change. The effective date will be revised when an update is posted.
+    </p>
+
+    <h2>15. Contact</h2>
+    <p>
+      For privacy questions, support or requests, write to
+      <a href="mailto:gurukarupamenufechar237@gmail.com">gurukarupamenufechar237@gmail.com</a>,
+      or use the developer support contact shown on MycoSnap's App Store listing.
+    </p>
+
+    <footer>
+      <a href="terms_of_use.html">Terms of Use</a>
+      <p>&copy; 2026 MycoSnap. All rights reserved.</p>
+    </footer>
+  </main>
+</body>
+</html>
